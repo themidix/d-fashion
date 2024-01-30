@@ -90,26 +90,24 @@ nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Form Styles */
 .signup-container form {
     width: 100%;
 }
 
-/* Input Field Styles */
 input[type="text"],
 input[type="email"] {
-    width: calc(100% - 20px); /* Full width minus padding */
+    width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box; /* Include padding and border in the element's width */
+    box-sizing: border-box; 
 }
 
 .submit-btn {
     width: 100%;
     padding: 15px;
-    background-color: #8B5B6E; /* Boutique theme color */
+    background-color: #8B5B6E;
     color: white;
     border: none;
     border-radius: 4px;
